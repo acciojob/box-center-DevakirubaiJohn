@@ -1,11 +1,17 @@
 div {
+	position:absolute;
 	 border: solid black 2px;
+	 left: 50%;
+	 top:50%;
+	transform:translate(-50%, -50%);
 	width:200px;
 	height:200px;
 	background-color:lightblue
 }
 .container {
-  display: grid;
+  display: flex;
+align-items:center;
+	 justify-content: center;
   place-items: center;
 
 }
